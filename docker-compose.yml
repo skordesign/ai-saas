@@ -1,0 +1,24 @@
+services:
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - AzureOpenAI__Endpoint=${AZURE_OPENAI_ENDPOINT}
+      - AzureOpenAI__ApiKey=${AZURE_OPENAI_API_KEY}
+      - AzureOpenAI__DeploymentName=${AZURE_OPENAI_DEPLOYMENT_NAME:-gpt-4o}
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=http://api:5000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    restart: unless-stopped

@@ -1,0 +1,29 @@
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+import SocialProof from "@/components/sections/SocialProof";
+import Features from "@/components/sections/Features";
+import HowItWorks from "@/components/sections/HowItWorks";
+import Testimonials from "@/components/sections/Testimonials";
+import Pricing from "@/components/sections/Pricing";
+import FAQ from "@/components/sections/FAQ";
+import WaitlistCTA from "@/components/sections/WaitlistCTA";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main className="flex-1">
+        <Hero />
+        <SocialProof />
+        <Features />
+        <HowItWorks />
+        <Testimonials />
+        <Pricing />
+        <FAQ />
+        <WaitlistCTA />
+      </main>
+      <Footer />
+    </>
+  );
+}
