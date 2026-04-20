@@ -4,7 +4,7 @@ services:
       context: ./apps/api
       dockerfile: Dockerfile
     ports:
-      - "5000:8080"
+      - "8080:8080"
     environment:
       - AzureOpenAI__Endpoint=${AZURE_OPENAI_ENDPOINT}
       - AzureOpenAI__ApiKey=${AZURE_OPENAI_API_KEY}
@@ -16,7 +16,7 @@ services:
       context: ./apps/web
       dockerfile: Dockerfile
       args:
-        - NEXT_PUBLIC_API_URL=http://api:5000
+        - NEXT_PUBLIC_API_URL=http://api:8080
     ports:
       - "3000:3000"
     depends_on:
