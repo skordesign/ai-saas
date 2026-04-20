@@ -16,7 +16,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center glow-sm">
                 <Sparkles className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="font-bold text-lg gradient-text">NeuralCopy</span>
+              <span className="font-bold text-lg gradient-text">Polarizelab</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               AI-powered copywriting that converts. Stop staring at blank pages — let AI write your
@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 NeuralCopy, Inc. All rights reserved.
+            © 2025 Polarizelab, Inc. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             Built with{" "}

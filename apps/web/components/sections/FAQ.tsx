@@ -10,24 +10,24 @@ import {
 
 const faqs = [
   {
-    question: "How is NeuralCopy different from ChatGPT?",
+    question: "How is Polarizelab different from ChatGPT?",
     answer:
-      "While ChatGPT is a general-purpose assistant, NeuralCopy is purpose-built for conversion copywriting. Our system prompt is tuned on proven frameworks (AIDA, PAS) and outputs structured, ready-to-use landing page packages — not raw prose you need to reformat.",
+      "While ChatGPT is a general-purpose assistant, Polarizelab is purpose-built for conversion copywriting. Our system prompt is tuned on proven frameworks (AIDA, PAS) and outputs structured, ready-to-use landing page packages — not raw prose you need to reformat.",
   },
   {
     question: "Can I use the generated copy commercially?",
     answer:
-      "Yes, absolutely. All copy generated through NeuralCopy is 100% yours. There are no licensing restrictions — use it on your website, ads, email campaigns, or anywhere else.",
+      "Yes, absolutely. All copy generated through Polarizelab is 100% yours. There are no licensing restrictions — use it on your website, ads, email campaigns, or anywhere else.",
   },
   {
     question: "Does it work for technical or niche products?",
     answer:
-      "Yes. The more specific your description, the better the output. NeuralCopy handles developer tools, B2B SaaS, e-commerce, fintech, and even highly technical products well.",
+      "Yes. The more specific your description, the better the output. Polarizelab handles developer tools, B2B SaaS, e-commerce, fintech, and even highly technical products well.",
   },
   {
-    question: "What AI model powers NeuralCopy?",
+    question: "What AI model powers Polarizelab?",
     answer:
-      "NeuralCopy is powered by GPT-4o via Azure OpenAI, chosen for its superior instruction-following and nuanced writing quality. All processing happens on Azure infrastructure for enterprise-grade reliability.",
+      "Polarizelab is powered by GPT-4o via Azure OpenAI, chosen for its superior instruction-following and nuanced writing quality. All processing happens on Azure infrastructure for enterprise-grade reliability.",
   },
   {
     question: "Is there a free trial?",

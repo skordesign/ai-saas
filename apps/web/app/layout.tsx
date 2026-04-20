@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NeuralCopy — AI-Powered Landing Page Copy in Seconds",
+  title: "Polarizelab — AI-Powered Landing Page Copy in Seconds",
   description:
     "Turn your product idea into high-converting landing page copy instantly. Powered by GPT-4o. No writer needed.",
   keywords: ["AI copywriting", "landing page", "SaaS", "GPT-4", "marketing copy"],
   openGraph: {
-    title: "NeuralCopy — AI-Powered Landing Page Copy",
+    title: "Polarizelab — AI-Powered Landing Page Copy",
     description: "Generate stunning landing page copy in seconds with AI.",
     type: "website",
   },

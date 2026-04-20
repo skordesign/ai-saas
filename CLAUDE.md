@@ -1,8 +1,8 @@
-# NeuralCopy — AI SaaS Portfolio Project
+# Polarizelab — AI SaaS Portfolio Project
 
 ## Project Overview
 
-**NeuralCopy** is an AI-powered SaaS landing page that demonstrates:
+**Polarizelab** is an AI-powered SaaS landing page that demonstrates:
 - Live GPT-4o streaming demo (SSE from .NET 10 → Azure OpenAI)
 - Modern SaaS landing page with full product thinking
 - Next.js 16 App Router + .NET 10 Minimal API monorepo

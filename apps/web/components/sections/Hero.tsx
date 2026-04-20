@@ -45,7 +45,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              NeuralCopy turns a one-line product description into a complete, conversion-ready
+              Polarizelab turns a one-line product description into a complete, conversion-ready
               landing page copy package — headline, tagline, features, and CTA — in real-time.
             </motion.p>
 

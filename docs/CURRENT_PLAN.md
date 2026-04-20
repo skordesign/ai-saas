@@ -15,7 +15,7 @@ Build a portfolio project that demonstrates:
 
 ---
 
-## Product Concept: **NeuralCopy**
+## Product Concept: **Polarizelab**
 
 > "Turn your idea into high-converting landing page copy in seconds."
 

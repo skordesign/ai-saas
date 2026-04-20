@@ -48,7 +48,7 @@ const features = [
     icon: Shield,
     title: "Brand Voice Lock",
     description:
-      "Train NeuralCopy on your existing content. Every generation matches your unique tone, style, and terminology.",
+      "Train Polarizelab on your existing content. Every generation matches your unique tone, style, and terminology.",
     color: "text-pink-400",
     bg: "bg-pink-400/10",
   },
@@ -73,7 +73,7 @@ export default function Features() {
             <span className="gradient-text">ship faster</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            NeuralCopy isn&apos;t just a text generator. It&apos;s a full copywriting system built
+            Polarizelab isn&apos;t just a text generator. It&apos;s a full copywriting system built
             for modern SaaS teams.
           </p>
         </motion.div>
